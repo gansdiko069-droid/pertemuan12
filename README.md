@@ -58,8 +58,8 @@ Menampilkan komponen pengisian catatan baru, tombol simpan, serta tampilan dafta
 ### 2. Bukti Persistensi Data (Sebelum & Sesudah Tutup Aplikasi)
 Pengujian validasi bahwa data yang disimpan tidak hilang dari `AsyncStorage` ketika aplikasi dimatikan paksa dari latar belakang dan dijalankan kembali.
 
-| Keadaan Sebelum App Ditutup | Keadaan Setelah App Dibuka Kembali |
-| :---: | :---: |
+| Keadaan ketika expo di kembalikan ke tempat awal | Keadaan Setelah App Dibuka Kembali, catatan sebelum nya masih ada |
+| :---: | :---: 
 | ![ketika mau di tutup](./assets/foto2.png) | ![ketika di buka kembali catatan masih ada](./assets/foto3.png) |
 
 ---

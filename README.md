@@ -53,19 +53,14 @@ Berikut adalah status pemenuhan kriteria fitur sesuai modul instruksi:
 ### 1. Halaman Utama & Form Input (CREATE & READ)
 Menampilkan komponen pengisian catatan baru, tombol simpan, serta tampilan daftar menggunakan `FlatList` yang rapi. Jika data kosong, komponen *Empty State* akan muncul.
 
-![Daftar Item & Empty State](./assets/screenshots/main_screen.png)
+![Tampilan awal note](./assets/screenshots/foto.png)
 
-### 2. Fitur Level 2 & 3 (Update Status & Timestamp)
-Menampilkan catatan yang berhasil di-update statusnya (misal dicoret/check) lengkap dengan penanda waktu (*timestamp*) pembuatan item.
-
-![Fitur Tambahan](./assets/screenshots/feature_level2.png)
-
-### 3. Bukti Persistensi Data (Sebelum & Sesudah Tutup Aplikasi)
+### 2. Bukti Persistensi Data (Sebelum & Sesudah Tutup Aplikasi)
 Pengujian validasi bahwa data yang disimpan tidak hilang dari `AsyncStorage` ketika aplikasi dimatikan paksa dari latar belakang dan dijalankan kembali.
 
 | Keadaan Sebelum App Ditutup | Keadaan Setelah App Dibuka Kembali |
 | :---: | :---: |
-| ![Sebelum](./assets/screenshots/app_before.png) | ![Sesudah](./assets/screenshots/app_after.png) |
+| ![ketika mau di tutup](./assets/screenshots/foto2.png) | ![ketika di buka kembali catatan masih ada](./assets/screenshots/foto3.png) |
 
 ---
 

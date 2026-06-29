@@ -53,14 +53,14 @@ Berikut adalah status pemenuhan kriteria fitur sesuai modul instruksi:
 ### 1. Halaman Utama & Form Input (CREATE & READ)
 Menampilkan komponen pengisian catatan baru, tombol simpan, serta tampilan daftar menggunakan `FlatList` yang rapi. Jika data kosong, komponen *Empty State* akan muncul.
 
-![Tampilan awal note](./assets/screenshots/foto.png)
+![Tampilan awal note](./assets/foto.png)
 
 ### 2. Bukti Persistensi Data (Sebelum & Sesudah Tutup Aplikasi)
 Pengujian validasi bahwa data yang disimpan tidak hilang dari `AsyncStorage` ketika aplikasi dimatikan paksa dari latar belakang dan dijalankan kembali.
 
 | Keadaan Sebelum App Ditutup | Keadaan Setelah App Dibuka Kembali |
 | :---: | :---: |
-| ![ketika mau di tutup](./assets/screenshots/foto2.png) | ![ketika di buka kembali catatan masih ada](./assets/screenshots/foto3.png) |
+| ![ketika mau di tutup](./assets/foto2.png) | ![ketika di buka kembali catatan masih ada](./assets/foto3.png) |
 
 ---
 
@@ -68,7 +68,7 @@ Pengujian validasi bahwa data yang disimpan tidak hilang dari `AsyncStorage` ket
 
 ### 1. Uji Coba Instan via Expo Snack
 Kamu bisa menjalankan dan melihat kode serta demo aplikasinya secara langsung tanpa instalasi lokal melalui tautan berikut:  
-🔗 **[Buka Proyek di Expo Snack](https://snack.expo.dev/@diko-dev/tactless-blue-cereal)**
+🔗 **[Buka Proyek di Expo Snack](https://snack.expo.dev/@diko-dev/funny-orange-cheese)**
 
 ### 2. Menjalankan di Komputer Lokal
 
